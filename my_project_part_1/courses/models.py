@@ -14,3 +14,4 @@ class Course(models.Model):
     start_day = models.DateField(null=True, blank=True)
     status = models.CharField(max_length=7, default="new", choices=STATUS)
     created = models.DateTimeField(auto_now_add=True)
+
